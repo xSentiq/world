@@ -102,14 +102,25 @@
           "color": "#f3e8ff"
         },
         {
-          "id": "el-ecdbkmf",
+          "id": "el-ecdbkmd",
           "type": "text",
           "heading": true,
           "content": "Mail:",
           "x": 8,
-          "y": 20,
+          "y": 22,
           "fontSize": 22,
           "bold": true,
+          "color": "#f3e8ff"
+        },
+        {
+          "id": "el-ecdbkms",
+          "type": "text",
+          "heading": true,
+          "content": "Sentiq@faggot.world",
+          "x": 16,
+          "y": 22,
+          "fontSize": 22,
+          "bold": false,
           "color": "#f3e8ff"
         }
       ]
