@@ -100,6 +100,17 @@
           "fontSize": 44,
           "bold": true,
           "color": "#f3e8ff"
+        },
+        {
+          "id": "el-ecdbkmf",
+          "type": "text",
+          "heading": true,
+          "content": "Mail:",
+          "x": 8,
+          "y": 20,
+          "fontSize": 22,
+          "bold": true,
+          "color": "#f3e8ff"
         }
       ]
     }
