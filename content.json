@@ -1,0 +1,111 @@
+{
+  "settings": {
+    "backgroundColor": "#0d0712",
+    "primaryColor": "#8b5cf6",
+    "secondaryColor": "#c084fc",
+    "textColor": "#f3e8ff",
+    "font": "Poppins"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "elements": [
+        {
+          "id": "el-title",
+          "type": "text",
+          "heading": true,
+          "content": "Your Name",
+          "x": 8,
+          "y": 14,
+          "w": 60,
+          "fontSize": 56,
+          "bold": true,
+          "color": "#f3e8ff"
+        },
+        {
+          "id": "el-subtitle",
+          "type": "text",
+          "heading": false,
+          "content": "A short line about what you do.",
+          "x": 8,
+          "y": 27,
+          "w": 50,
+          "fontSize": 20,
+          "bold": false,
+          "color": "#c084fc"
+        },
+        {
+          "id": "el-github",
+          "type": "icon",
+          "icon": "github",
+          "url": "https://github.com/",
+          "linkType": "external",
+          "x": 8,
+          "y": 40,
+          "color": "#f3e8ff"
+        },
+        {
+          "id": "el-twitter",
+          "type": "icon",
+          "icon": "twitter",
+          "url": "https://twitter.com/",
+          "linkType": "external",
+          "x": 15,
+          "y": 40,
+          "color": "#f3e8ff"
+        },
+        {
+          "id": "el-about-link",
+          "type": "link",
+          "label": "About me \u2192",
+          "icon": "link",
+          "linkType": "internal",
+          "targetPage": "about",
+          "x": 8,
+          "y": 50,
+          "color": "#c084fc"
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "elements": [
+        {
+          "id": "el-about-title",
+          "type": "text",
+          "heading": true,
+          "content": "About",
+          "x": 8,
+          "y": 14,
+          "w": 60,
+          "fontSize": 44,
+          "bold": true,
+          "color": "#f3e8ff"
+        },
+        {
+          "id": "el-about-text",
+          "type": "text",
+          "heading": false,
+          "content": "Edit this page from /admin \u2014 log in with your GitHub token and click any element to change it.",
+          "x": 8,
+          "y": 27,
+          "w": 55,
+          "fontSize": 18,
+          "bold": false,
+          "color": "#e9d8fd"
+        },
+        {
+          "id": "el-home-link",
+          "type": "link",
+          "label": "\u2190 Home",
+          "icon": "link",
+          "linkType": "internal",
+          "targetPage": "home",
+          "x": 8,
+          "y": 40,
+          "color": "#c084fc"
+        }
+      ]
+    }
+  }
+}
