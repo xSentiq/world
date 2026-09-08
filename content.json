@@ -48,12 +48,12 @@
         {
           "id": "el-t5hfiod",
           "type": "link",
-          "label": "New link",
+          "label": "Contact me →",
           "icon": "link",
-          "url": "https://",
-          "linkType": "external",
-          "x": 8.3,
-          "y": 54.7,
+          "targetPage": "contact",
+          "linkType": "internal",
+          "x": 8,
+          "y": 55,
           "color": "#c084fc"
         }
       ]
