@@ -135,14 +135,14 @@
           "color": "#f3e8ff"
         },
         {
-          "id": "el-home-ling",
+          "id": "el-5sx2dt9",
           "type": "link",
           "label": "← Home",
           "icon": "link",
+          "url": "https://",
           "linkType": "internal",
-          "targetPage": "home",
-          "x": 8,
-          "y": 40,
+          "x": 10.1,
+          "y": 42.4,
           "color": "#c084fc"
         }
       ]
