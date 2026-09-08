@@ -133,6 +133,17 @@
           "fontSize": 22,
           "bold": false,
           "color": "#f3e8ff"
+        },
+        {
+          "id": "el-home-ling",
+          "type": "link",
+          "label": "← Home",
+          "icon": "link",
+          "linkType": "internal",
+          "targetPage": "home",
+          "x": 8,
+          "y": 40,
+          "color": "#c084fc"
         }
       ]
     }
