@@ -139,8 +139,8 @@
           "type": "link",
           "label": "← Home",
           "icon": "link",
-          "url": "https://",
           "linkType": "internal",
+          "targetPage": "home",
           "x": 8,
           "y": 40,
           "color": "#c084fc"
