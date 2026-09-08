@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <!-- LOGIN SCREEN -->
+  <div id="login-screen" class="login-screen">
+    <form id="login-form" class="login-card">
+      <h1>Site Admin</h1>
+      <p class="sub">Sign in with a GitHub token to edit this site.</p>
+
+      <label>GitHub username / org
+        <input type="text" id="f-owner" placeholder="yourusername" autocomplete="off" required>
+      </label>
+      <label>Repository name
+        <input type="text" id="f-repo" placeholder="yourusername.github.io" autocomplete="off" required>
+      </label>
+      <label>Branch
+        <input type="text" id="f-branch" placeholder="main" value="main" autocomplete="off" required>
+      </label>
+      <label>GitHub token (fine-grained, this repo, Contents: Read & Write)
+        <input type="password" id="f-token" placeholder="github_pat_..." autocomplete="off" required>
+      </label>
+
+      <button type="submit" id="login-btn">Sign in</button>
+      <p class="error" id="login-error"></p>
+      <p class="hint">The token is kept only in this browser tab's memory. It's never saved to the repo or to disk.</p>
+    </form>
+  </div>
+
+  <!-- EDITOR SCREEN -->
+  <div id="editor-screen" class="editor-screen hidden">
+    <header class="topbar">
+      <div class="topbar-left">
+        <strong>Admin</strong>
+        <select id="page-select"></select>
+        <button id="add-page-btn" title="Add page">+ Page</button>
+        <button id="rename-page-btn" title="Rename page">Rename</button>
+        <button id="delete-page-btn" title="Delete page">Delete page</button>
+      </div>
+      <div class="topbar-right">
+        <span id="save-status" class="save-status"></span>
+        <button id="settings-btn">Site settings</button>
+        <button id="save-btn" class="primary">Save & Publish</button>
+        <a href="../" target="_blank" class="view-link">View site ↗</a>
+        <button id="logout-btn">Log out</button>
+      </div>
+    </header>
+
+    <div class="workspace">
+      <aside class="toolbar">
+        <button data-add="text">+ Text</button>
+        <button data-add="heading">+ Heading</button>
+        <button data-add="image">+ Image</button>
+        <button data-add="link">+ Link</button>
+        <button data-add="icon">+ Icon</button>
+      </aside>
+
+      <main class="canvas-wrap">
+        <div id="admin-canvas" class="admin-canvas"></div>
+      </main>
+
+      <aside id="props-panel" class="props-panel">
+        <p class="props-empty">Click an element to edit it.</p>
+      </aside>
+    </div>
+  </div>
+
+  <input type="file" id="image-file-input" accept="image/*" style="display:none">
+
+  <script src="../assets/icons.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
