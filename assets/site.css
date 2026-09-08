@@ -1,0 +1,85 @@
+:root{
+  --bg: #0d0712;
+  --primary: #8b5cf6;
+  --secondary: #c084fc;
+  --text: #f3e8ff;
+}
+
+*{box-sizing:border-box;}
+
+html,body{
+  margin:0;
+  min-height:100%;
+  background: radial-gradient(circle at 15% 10%, rgba(139,92,246,0.25), transparent 45%),
+              radial-gradient(circle at 85% 80%, rgba(192,132,252,0.18), transparent 50%),
+              var(--bg);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  overflow-x:hidden;
+}
+
+#canvas{
+  position:relative;
+  min-height:100vh;
+  width:100%;
+  max-width:1400px;
+  margin:0 auto;
+  padding: 0 4vw;
+}
+
+.el{
+  position:absolute;
+  max-width:90vw;
+}
+
+.el h2{
+  margin:0;
+  line-height:1.1;
+  letter-spacing:-0.02em;
+  text-shadow: 0 0 40px rgba(139,92,246,0.35);
+}
+
+.el p{
+  margin:0;
+  line-height:1.5;
+}
+
+.el img{
+  display:block;
+  max-width:100%;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.el .social-link{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  text-decoration:none;
+  color: var(--secondary);
+  font-weight:600;
+  transition: opacity .15s ease, transform .15s ease;
+}
+
+.el .social-link:hover{
+  opacity:0.75;
+  transform: translateY(-2px);
+}
+
+.el .icon svg{
+  width:28px;
+  height:28px;
+  display:block;
+}
+
+.el-icon .icon svg{
+  width:32px;
+  height:32px;
+}
+
+.link-label{
+  font-size:1rem;
+}
+
+@media (max-width: 640px){
+  .el{ max-width: 92vw; }
+}
