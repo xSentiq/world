@@ -86,6 +86,22 @@
           "color": "#c084fc"
         }
       ]
+    },
+    "contact": {
+      "title": "contact",
+      "elements": [
+        {
+          "id": "el-ecdbkmf",
+          "type": "text",
+          "heading": true,
+          "content": "Contact me!!!",
+          "x": 8,
+          "y": 14,
+          "fontSize": 44,
+          "bold": true,
+          "color": "#f3e8ff"
+        }
+      ]
     }
   }
 }
