@@ -44,6 +44,17 @@
           "x": 8,
           "y": 50,
           "color": "#c084fc"
+        },
+        {
+          "id": "el-t5hfiod",
+          "type": "link",
+          "label": "New link",
+          "icon": "link",
+          "url": "https://",
+          "linkType": "external",
+          "x": 8.3,
+          "y": 54.7,
+          "color": "#c084fc"
         }
       ]
     },
