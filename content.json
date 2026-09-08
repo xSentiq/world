@@ -115,7 +115,7 @@
         {
           "id": "el-ecdbkms",
           "type": "text",
-          "heading": true,
+          "heading": false,
           "content": "Sentiq@faggot.world",
           "x": 16,
           "y": 22,
